@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+
+}
+
+
+.menu_h a{
+background: black;
+color: white;
+font-size: 20px;
+text-decoration: none;
+float: left;
+width: 20%;
+text-align: center;
+padding: 20px;
+font-family: arial black;
+
+}
+
+
+
+.menu_h a:hover{
+background: white;
+color: black;
+
+}
+
+
+.menu_v a{
+	background: black;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 20px;
+	
+	display: block;
+	font-family: arial black;
+
+}
+
+.menu_v a:hover{
+background: white;
+color: black;
+
+}
+.menu_h{
+	overflow: hidden;
+	border:5px double;
+}
+
+.menu_v{
+	
+	float: left;
+	width: 26%;
+	overflow: hidden;
+	border: 5px double;
+}
+
+
+img{
+	float: left;
+	width: 73%;
+	border: 5px double;
+}
+
+#curso_s{
+	float: left;
+	background: gray;
+	height: 600px;
+	width: 100%;
+}
+
+.curso_t{
+font-size: 50PX;
+color: orange;
+text-align: center;
+padding: 250px;	
+}
